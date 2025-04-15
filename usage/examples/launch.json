@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+      {
+        "name": "Connect gdb to gdbserver",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "~/workspaces/install/opt/exe_my_hello_world_executbale.debug",
+        "miDebuggerServerAddress": "192.168.56.25:1220",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "~/workspaces/apps/exe_my_hello_world/src",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      }
+    ]
+  }

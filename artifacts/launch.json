@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+      {
+        "name": "Connect gdb to gdbserver",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "<path to progam>",
+        "miDebuggerServerAddress": "<ip_address>:<port_number>",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "<program_source_code>",
+        "environment": [],
+        "externalConsole": true,
+        "linux": {
+          "MIMode": "gdb"
+        },
+        "osx": {
+          "MIMode": "gdb"
+        },
+        "windows": {
+          "MIMode": "gdb"
+        }
+      }
+    ]
+  }
